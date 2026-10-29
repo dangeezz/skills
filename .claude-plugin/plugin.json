@@ -1,8 +1,8 @@
 {
-  "name": "agent-context",
+  "name": "claude-skills",
   "version": "0.1.0",
-  "description": "Lean, git-tracked agent context for a project: AGENTS.md with the rules, CLAUDE.md importing it, and agents/context (now, map, docs index, todo, log), with token-saving habits.",
+  "description": "dangeezz's Claude Code skills, one folder per skill in skills/.",
   "author": { "name": "dangeezz" },
-  "repository": "https://github.com/dangeezz/agent-context",
-  "keywords": ["context", "agents", "AGENTS.md", "tokens"]
+  "repository": "https://github.com/dangeezz/claude-skills",
+  "keywords": ["skills", "context", "agents"]
 }

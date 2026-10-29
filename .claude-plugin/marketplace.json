@@ -1,11 +1,11 @@
 {
-  "name": "agent-context",
+  "name": "claude-skills",
   "owner": { "name": "dangeezz" },
   "plugins": [
     {
-      "name": "agent-context",
+      "name": "claude-skills",
       "source": "./",
-      "description": "Lean, git-tracked agent context for a project (AGENTS.md, CLAUDE.md, agents/context)."
+      "description": "dangeezz's Claude Code skills (agent-context, and more as they're added)."
     }
   ]
 }
