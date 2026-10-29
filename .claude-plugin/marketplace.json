@@ -1,0 +1,11 @@
+{
+  "name": "agent-context",
+  "owner": { "name": "dangeezz" },
+  "plugins": [
+    {
+      "name": "agent-context",
+      "source": "./",
+      "description": "Lean, git-tracked agent context for a project (AGENTS.md, CLAUDE.md, agents/context)."
+    }
+  ]
+}

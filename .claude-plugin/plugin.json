@@ -1,0 +1,9 @@
+{
+  "name": "agent-context",
+  "version": "0.1.0",
+  "description": "Lean, git-tracked agent context for a project: AGENTS.md with the rules, CLAUDE.md importing it, and agents/context (now, map, docs index, todo, log), with token-saving habits.",
+  "author": { "name": "dangeezz" },
+  "repository": "https://github.com/dangeezz/agent-context",
+  "license": "MIT",
+  "keywords": ["context", "agents", "AGENTS.md", "tokens"]
+}
