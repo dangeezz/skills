@@ -1,8 +1,8 @@
 {
-  "name": "claude-skills",
+  "name": "skills",
   "version": "0.1.0",
-  "description": "dangeezz's Claude Code skills, one folder per skill in skills/.",
+  "description": "dangeezz's agent skills, one folder per skill in skills/.",
   "author": { "name": "dangeezz" },
-  "repository": "https://github.com/dangeezz/claude-skills",
+  "repository": "https://github.com/dangeezz/skills",
   "keywords": ["skills", "context", "agents"]
 }

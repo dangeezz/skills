@@ -40,8 +40,8 @@ If sessions may start one folder up (a product folder holding the repo and an un
    from now.md alone.
 
 ## Token habits (write them into AGENTS.md; adjust to the project)
-- One task per session; at the end update now.md and the log, commit, `/clear`.
-- Listings with the Glob tool or `command ls -1` (shells with eza/colour aliases flood output).
+- One task per session; at the end update now.md and the log, commit, clear the context (`/clear` in Claude Code).
+- Listings with the agent's file-search tool or `command ls -1` (shells with eza/colour aliases flood output).
 - Output through `tail`/`grep`; long runs to a file, read the summary and failures.
 - Big files: `grep -n`, read the range, change with small Edits; never rewrite or paste over a large file.
 - Screenshots only when a number can't answer; clipped; one per check.

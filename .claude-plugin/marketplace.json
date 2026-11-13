@@ -1,11 +1,11 @@
 {
-  "name": "claude-skills",
+  "name": "skills",
   "owner": { "name": "dangeezz" },
   "plugins": [
     {
-      "name": "claude-skills",
+      "name": "skills",
       "source": "./",
-      "description": "dangeezz's Claude Code skills (agent-context, and more as they're added)."
+      "description": "dangeezz's agent skills (agent-context, and more as they're added)."
     }
   ]
 }

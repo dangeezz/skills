@@ -21,8 +21,8 @@ For any coding agent (Claude Code reads it through `CLAUDE.md`). Paths are relat
 - <The owner's standing rules: testing, commits, merges, UI conventions…>
 
 ## Keep tokens low
-- One task per session: update now.md and the log, commit, then `/clear`.
-- Listings: the Glob tool or `command ls -1`. Output: `| tail -n 20` / `| grep`; long runs to a file.
+- One task per session: update now.md and the log, commit, then clear the context (`/clear` in Claude Code).
+- Listings: the agent's file-search tool or `command ls -1`. Output: `| tail -n 20` / `| grep`; long runs to a file.
 - Big files: `grep -n`, read the range, small Edits; never rewrite a large file.
 - Screenshots only when a number can't answer; clipped; one per check.
 - Tests as background commands read by summary; a tester subagent only when a run needs judgement.
