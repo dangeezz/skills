@@ -4,5 +4,6 @@
   "description": "dangeezz's agent skills, one folder per skill in skills/.",
   "author": { "name": "dangeezz" },
   "repository": "https://github.com/dangeezz/skills",
+  "license": "MIT",
   "keywords": ["skills", "context", "agents"]
 }
