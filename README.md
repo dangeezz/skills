@@ -24,7 +24,8 @@ Or link one skill by hand into your agent's skills folder, e.g. `ln -s <this rep
 
 ## Add a skill
 A new folder `skills/<name>/` with a `SKILL.md` (frontmatter `name` and `description`), a row in the table above,
-and a version bump in `.claude-plugin/plugin.json`.
+and a version bump in `.claude-plugin/plugin.json`. Tests for a skill go in `tests/<name>/` (not shipped with
+the skill); see [tests/lean-context](tests/lean-context/README.md).
 
 ## Licence
 MIT, see [LICENSE](LICENSE).
