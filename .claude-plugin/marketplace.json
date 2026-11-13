@@ -5,7 +5,7 @@
     {
       "name": "skills",
       "source": "./",
-      "description": "dangeezz's agent skills (agent-context, and more as they're added)."
+      "description": "dangeezz's agent skills (lean-context, and more as they're added)."
     }
   ]
 }

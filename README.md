@@ -5,13 +5,13 @@ OpenCode…). Each skill is a folder in `skills/`: `skills/<name>/SKILL.md` plus
 
 | Skill | What it does |
 | --- | --- |
-| [agent-context](skills/agent-context/SKILL.md) | Sets up or audits lean, git-tracked agent context for a project: `AGENTS.md` with the rules (plus a one-line `CLAUDE.md` import for Claude Code), and `agents/context/` (now, map, docs index, todo, log), with token-saving habits. |
+| [lean-context](skills/lean-context/SKILL.md) | Keeps agents' context window small by setting up or auditing lean, git-tracked project context: `AGENTS.md` with the rules (plus a one-line `CLAUDE.md` import for Claude Code), and `agents/context/` (now, map, docs index, todo, log), with token-saving habits. |
 
 ## Install
 With the [skills](https://github.com/vercel-labs/skills) CLI, for any supported agent (`-g` installs globally,
 leave it out for the current project):
 ```
-npx skills add dangeezz/skills --skill agent-context -g
+npx skills add dangeezz/skills --skill lean-context -g
 ```
 
 As a Claude Code plugin (all skills at once):

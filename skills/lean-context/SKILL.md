@@ -1,9 +1,9 @@
 ---
-name: agent-context
-description: Set up (or audit) lean, git-tracked agent context in a project — AGENTS.md with the rules, CLAUDE.md importing it, an agents/ folder (context/, memory/, skills/) with now/map/docs-index/todo/log, .claude/ entries symlinked into agents/, and token-saving habits. Use when starting a project, when sessions spend many tokens getting oriented, when the user wants to continue work on another machine, or asks to reuse this "agent context" architecture.
+name: lean-context
+description: Keep coding agents' context window small. Sets up (or audits) lean, git-tracked project context so any session or subagent gets oriented in about 2–3k tokens instead of reading the docs — AGENTS.md with the rules, CLAUDE.md importing it, an agents/ folder (context/, memory/, skills/) with size-capped now/map/docs-index/todo/log, .claude/ entries symlinked into agents/ — plus token-saving habits. Use when starting a project, when sessions spend many tokens getting oriented or fill the context window, when work continues on another machine, or when the user asks for this "lean context" setup.
 ---
 
-# Agent context: lean, tracked, shared with subagents
+# Lean context: a small context window, tracked in git, shared with subagents
 
 Goal: any session (or subagent, any machine, any coding agent) learns what the project is, what's going on and
 how to work in about 2–3k tokens, instead of reading the docs; and every change to that context is in git.
