@@ -3,7 +3,7 @@
 # Usage (from the repo root): sh tests/lean-context/check.sh <fixture>|all
 repo=$(cd "$(dirname "$0")/../.." && pwd)
 skill="$repo/skills/lean-context"
-[ "$1" = all ] && set -- $(command ls -1 "$repo/scratch")
+[ "$1" = all ] && set -- $(cd "$repo/scratch" && for f in *; do [ -d "$f" ] && echo "$f"; done)
 total=0
 for name in "$@"; do
   d="$repo/scratch/$name"; [ -d "$d" ] || { echo "not prepared: $name"; total=1; continue; }
